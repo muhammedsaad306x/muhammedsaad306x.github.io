@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My Webpage</h1>
+    
+    <!-- Your content goes here -->
+    <p>Current datetime: <span id="datetime"></span></p>
+
+    <script>
+        // Get current datetime
+        var currentDatetime = new Date().toLocaleString();
+        // Display current datetime
+        document.getElementById("datetime").innerHTML = currentDatetime;
+    </script>
+</body>
+</html>
